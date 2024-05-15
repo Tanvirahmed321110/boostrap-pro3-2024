@@ -1,0 +1,63 @@
+
+@media screen and (min-width: 991px){
+    .padding-0{
+        padding-top:0;
+        
+    }
+    
+
+}
+.banner{
+    /* width: 1100px;
+    margin: 0 auto; */
+}
+.banner img{
+    height: 80dvh;
+    
+    object-fit: cover;
+    object-position: center;
+}
+
+section{
+    margin-top: 60px;
+}
+footer{
+    margin-top: 60px;
+}
+img{
+    object-fit: cover;
+    object-position: center;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a{
+    color: #503939;
+    text-decoration: none;
+}
+
+footer .social li{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+footer .social li i{
+    color: #a37d7d;
+}
+footer .social li:hover{
+    background-color: rgb(112, 87, 87) !important;
+}
+
+.footer-bottom{
+    background-color: #EFEFEF;
+}
